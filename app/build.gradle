@@ -29,9 +29,17 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures{
+        viewBinding true
+    }
 }
 
 dependencies {
+
+    // FFmpeg library
+    implementation 'com.writingminds:FFmpegAndroid:0.3.2'
+    // File Picker
+
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'

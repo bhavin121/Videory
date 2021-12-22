@@ -55,4 +55,8 @@
         <item name="color_unchecked_stroke">@color/checkbox_unchecked_color</item>
         <item name="color_tick">@android:color/white</item>
     </style>
+
+    <color name="darkTextColor">@color/darkBlue</color>
+    <color name="lightTextColor">@color/white</color>
+    <color name="backgroundColor">@color/white</color>
 </resources>

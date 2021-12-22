@@ -1,12 +1,12 @@
 package com.example.editory
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.AnimationUtils
-import android.widget.MediaController
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.editory.databinding.ActivitySplashBinding
@@ -14,6 +14,7 @@ import droidninja.filepicker.FilePickerBuilder
 import droidninja.filepicker.FilePickerConst
 import droidninja.filepicker.utils.ContentUriUtils
 
+@SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivitySplashBinding

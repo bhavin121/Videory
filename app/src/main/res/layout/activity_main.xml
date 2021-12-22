@@ -4,35 +4,120 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
     tools:context=".MainActivity">
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_marginHorizontal="30dp"
-        android:background="@color/purple_200"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <RelativeLayout
+        android:id="@+id/videoAnchor"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+        <VideoView
+            android:id="@+id/video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:keepScreenOn="true"
+            />
+    </RelativeLayout>
 
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:padding="5dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <VideoView
-        android:id="@+id/video"
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundColor"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="10dp">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/audio"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/rect"
+                android:gravity="center_horizontal"
+                android:paddingVertical="5dp"
+                android:text="Audio"
+                android:textColor="@color/itemColor"
+                android:textSize="14sp"
+                app:drawableTopCompat="@drawable/ic_audio"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/rect"
+                android:gravity="center_horizontal"
+                android:paddingVertical="5dp"
+                android:text="Text"
+                android:textColor="@color/itemColor"
+                android:textSize="14sp"
+                app:drawableTopCompat="@drawable/ic_text"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/rotate"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/rect"
+                android:gravity="center_horizontal"
+                android:paddingVertical="5dp"
+                android:text="Rotate"
+                android:textColor="@color/itemColor"
+                android:textSize="14sp"
+                app:drawableTopCompat="@drawable/ic_rotate"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/effect"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/rect"
+                android:gravity="center_horizontal"
+                android:paddingVertical="5dp"
+                android:text="Effects"
+                android:textColor="@color/itemColor"
+                android:textSize="14sp"
+                app:drawableTopCompat="@drawable/ic_rotate"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

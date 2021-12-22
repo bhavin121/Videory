@@ -3,6 +3,7 @@
     package="com.example.editory">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +15,9 @@
         android:theme="@style/Theme.Editory">
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
+            />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"

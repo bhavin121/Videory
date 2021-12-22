@@ -3,12 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/drawable/circle.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/drawable/ic_audio.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/drawable/ic_editory.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/drawable/ic_folder.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/drawable/ic_music.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/drawable/ic_rotate.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/drawable/ic_text.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/drawable/rect.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/drawable/solid_rect.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/font/my_font_family.xml" value="0.259375" />
-        <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/layout/activity_main.xml" value="0.6" />
         <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/layout/add_audio_dialog.xml" value="0.264" />
+        <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/layout/export_video_dialog.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/layout/loading.xml" value="0.6" />
+        <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/layout/text_dialog.xml" value="0.5" />
         <entry key="..\:/Users/bhavi/AndroidStudioProjects/Editory/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12135416666666667" />
       </map>
     </option>

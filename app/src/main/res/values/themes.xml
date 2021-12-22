@@ -59,4 +59,6 @@
     <color name="darkTextColor">@color/darkBlue</color>
     <color name="lightTextColor">@color/white</color>
     <color name="backgroundColor">@color/white</color>
+    <color name="trackBackgroundColor">@color/lightBlue</color>
+    <color name="itemColor">@color/yellow_900</color>
 </resources>
